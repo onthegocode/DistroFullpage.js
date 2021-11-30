@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DistroSwag</title>
+    
+    <link rel="icon" type="image/x-icon" href="images/fav.png">
+
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</head>
+<body>
+        
+        <div id="fullpage">
+            <header class="header fadeIn">
+                <div class="inner-header">
+                    <a href="#section3">
+                        <img  class="logo" alt="DistroSwag Logo" src="images/logo.png"/>
+                    </a>
+                    <nav class="main-nav">
+                        <ul class="main-nav-list">
+                            <li><a class="main-nav-link" href="javascript:window.location.reload(true)">About Us</a></li>
+                            <li><a class="main-nav-link" href="#section2">Our Goals</a></li>
+                            <li><a class="main-nav-link nav-cta" href="#section3">Get in Touch</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div id="aboutus" class="section s1">
+                    <div class="container">  
+                        <h1>Who is DistroSwag?</h1>
+                        <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum nibh ac blandit risus vulputate quisque. Arcu ullamcorper molestie orci sed amet, dictum velit, elit. Nulla gravida ornare sit cras consequat elit. Neque facilisi amet nunc, odio vulputate neque.</p>
+                    </div>
+                </div>
+                
+                <div  class="section s2">
+                    <div id="goals" class="container">
+                        <h1>Our Goals</h1>
+                        <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum nibh ac blandit risus vulputate quisque. Arcu ullamcorper molestie orci sed amet, dictum velit, elit. Nulla gravida ornare sit cras consequat elit. Neque facilisi amet nunc, odio vulputate neque.</p>
+                    </div>
+                </div>
+                <!-- FORM AND BUTTON BELOW -->
+                <div id="contact" class="section s3">
+                    <div class="form">
+                        <div class="container">
+                            <h1>Get in Touch</h1>
+                            <p class="main-text  main--text-form">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum</p>
+                        </div>
+                        <form class="cta-form" action="https://formsubmit.co/d6151651c2f86b6316ae70a06e7c95a0" method="POST">
+                            <!-- Honeypot -->
+                            <input type="text" name="_honey" style="display: none;" />
+
+                            <!-- Disable Captcha -->
+                            <input type="hidden" name="_captcha" value="false" />
+
+                            <div class="form-content">
+                                <div class="full--name">
+                                    <input id="text" type="text" name="name" placeholder="Full Name" required/>
+                                </div>
+                                <div class="email">
+                                    <input id="email-text" type="email" name="email" placeholder="Email" required/>
+                                </div>
+                            </div>
+                            <div class="comment">
+                                <textarea class="comments" name="comments,&nbsp;questions" rows="5" cols="33" placeholder="Comments" required></textarea>
+                            </div>
+                            <button type="submit" class="btn--form">Get in Touch</button>
+                        </form>
+                    </div>
+                    <div class="footer">
+                        <div class="inner-footer">
+                            <nav class="footer-nav">
+                                <ul class="footer-nav-list">
+                                    <li><a class="footer-nav-link footer-logo" href="#section1">DistroSwag © <span class="year">2021</span></a></li>
+                                    <li><a href="#section1" class="footer-nav-link">About Us</a></li>
+                                    <li><a href="#section2" class="footer-nav-link">Our Goals</a></li>
+                                    <li><a href="#section3" class="footer-nav-link" id="footer-cta">Get in Touch</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+        </main>
+    </div>
+        
+        
+</body>
+</html>
