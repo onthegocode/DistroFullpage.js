@@ -4,6 +4,10 @@ new fullpage('#fullpage', {
     navigation: true,
     anchors:['section1', 'section2', 'section3', 'footer'],
     navigationTooltips: ['About Us', 'Our Goals', 'Get in Touch'],
+    scrollingSpeed: 1250,
+    onLeave: function(origin, destination, direction){
+        destination.item.classList.add('load-bg');
+      }
 })
 
 // Copyright Update new year
