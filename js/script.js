@@ -4,11 +4,7 @@ new fullpage('#fullpage', {
     navigation: true,
     anchors:['section1', 'section2', 'section3', 'footer'],
     navigationTooltips: ['About Us', 'Our Goals', 'Get in Touch'],
-    scrollingSpeed: 1250,
-    sectionSelector: 'section',
-    scrollBar: true,
-    controlArrows: false,
-    verticalCentered: false
+    scrollingSpeed: 1250
 })
 
 // Copyright Update new year
