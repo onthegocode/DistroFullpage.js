@@ -5,9 +5,7 @@ new fullpage('#fullpage', {
     anchors:['section1', 'section2', 'section3', 'footer'],
     navigationTooltips: ['About Us', 'Our Goals', 'Get in Touch'],
     scrollingSpeed: 1250,
-    onLeave: function(origin, destination, direction){
-        destination.item.classList.add('load-bg');
-      }
+    responsiveWidth: 800 
 })
 
 // Copyright Update new year
