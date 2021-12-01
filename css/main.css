@@ -126,8 +126,8 @@ p {
 
 .s1 {
   height: 100vh;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(10, 9, 49, 0.65)), to(rgba(10, 9, 49, 0.65))), url(../images/bg-s1.jpg);
-  background: linear-gradient(0deg, rgba(10, 9, 49, 0.65), rgba(10, 9, 49, 0.65)), url(../images/bg-s1.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(10, 9, 49, 0.65)), to(rgba(10, 9, 49, 0.65))), url(../images/s1-bg.jpg);
+  background: linear-gradient(0deg, rgba(10, 9, 49, 0.65), rgba(10, 9, 49, 0.65)), url(../images/s1-bg.jpg);
   background-size: cover;
   table-layout: auto !important;
   width: 100% !important;
@@ -135,8 +135,8 @@ p {
 
 .s2 {
   height: 100vh;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(42, 7, 31, 0.65)), to(rgba(42, 7, 31, 0.65))), url(../images/bg-s2.jpg);
-  background: linear-gradient(0deg, rgba(42, 7, 31, 0.65), rgba(42, 7, 31, 0.65)), url(../images/bg-s2.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(42, 7, 31, 0.65)), to(rgba(42, 7, 31, 0.65))), url(../images/s2-bg.jpg);
+  background: linear-gradient(0deg, rgba(42, 7, 31, 0.65), rgba(42, 7, 31, 0.65)), url(../images/s2-bg.jpg);
   background-size: cover;
   table-layout: auto !important;
   width: 100% !important;
@@ -144,8 +144,8 @@ p {
 
 .s3 {
   height: 100vh;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(7, 7, 37, 0.65)), to(rgba(7, 7, 37, 0.65))), url(../images/bg-s3.jpg);
-  background: linear-gradient(0deg, rgba(7, 7, 37, 0.65), rgba(7, 7, 37, 0.65)), url(../images/bg-s3.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(7, 7, 37, 0.65)), to(rgba(7, 7, 37, 0.65))), url(../images/s3-bg.jpg);
+  background: linear-gradient(0deg, rgba(7, 7, 37, 0.65), rgba(7, 7, 37, 0.65)), url(../images/s3-bg.jpg);
   background-size: cover;
   table-layout: auto !important;
   width: 100% !important;
