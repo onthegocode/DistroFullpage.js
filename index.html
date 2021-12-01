@@ -25,8 +25,8 @@
                     </a>
                     <nav class="main-nav">
                         <ul class="main-nav-list">
-                            <li><a class="main-nav-link" href="javascript:window.location.reload(true)">About Us</a></li>
-                            <li><a class="main-nav-link" href="#section2">Our Goals</a></li>
+                            <li><a class="main-nav-link btn" href="javascript:window.location.reload(true)">About Us</a></li>
+                            <li><a class="main-nav-link btn" href="#section2">Our Goals</a></li>
                             <li><a class="main-nav-link nav-cta" href="#section3">Get in Touch</a></li>
                         </ul>
                     </nav>
@@ -35,45 +35,52 @@
             <main>
                 <div id="aboutus" class="section s1">
                     <div class="container">  
-                        <h1>Who is DistroSwag?</h1>
-                        <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum nibh ac blandit risus vulputate quisque. Arcu ullamcorper molestie orci sed amet, dictum velit, elit. Nulla gravida ornare sit cras consequat elit. Neque facilisi amet nunc, odio vulputate neque.</p>
+                        <div class="main-container">
+                            <h1>Who is DistroSwag?</h1>
+                            <p class="main-text">DistroSwag is an NYC based wholesale distributor that strives to provide its patrons with high quality goods at competitively low prices and outstanding client services. We specialize in business to business servicing, and we are adaptable to the specific needs of any business. DistroSwag prides itself on developing close relationships with and delivering superior service to its patrons.</p>
+                        </div>
+                    </div>
+                </div>
+                <div  class="section s2">
+                    <div id="goals" class="container">
+                        <div class="main-container">
+                            <h1>Our Goals</h1>
+                            <p class="main-text">Our goal is to continue to grow as an organization and provide outstanding products and customer service to our clients. We will continue to scale our business to include an expanding variety of quality goods, and we will accommodate as much clientele as possible without sacrificing efficiency or customer satisfaction. Lastly, our goal is to continue to develop long term relationships with the businesses we work with, as we continue to evolve as a company and help others start and grow their businesses.</p>
+                        </div>
                     </div>
                 </div>
                 
-                <div  class="section s2">
-                    <div id="goals" class="container">
-                        <h1>Our Goals</h1>
-                        <p class="main-text">Distro Swag strives to build B2B connections with Wholesalers who are looking to get their products out there and want to expand their network. If you are a Wholesaler with quality products, we are interested in creating long term relationship.</p>
-                    </div>
-                </div>
-                <!-- FORM AND BUTTON BELOW -->
+                    <!-- FORM AND BUTTON BELOW -->
                 <div id="contact" class="section s3">
                     <div class="form">
-                        <div class="container">
-                            <h1>Get in Touch</h1>
-                            <p class="main-text  main--text-form">Want to work with us? Get in touch by using the contact form below. We look forward to doing business with you. </p>
+                        <div class="form main-container">
+                            <div class="container">
+                                <h1>Get in Touch</h1>
+                                <p class="main-text  main--text-form">Want to work with us? Get in touch by using the contact form below. We look forward to doing business with you.</p>
+                            </div>
+                            <form class="cta-form" action="https://formsubmit.co/d6151651c2f86b6316ae70a06e7c95a0" method="POST">
+                                <!-- Honeypot -->
+                                <input type="text" name="_honey" style="display: none;" />
+                                
+                                <!-- Disable Captcha -->
+                                <input type="hidden" name="_captcha" value="false" />
+                                
+                                <div class="form-content">
+                                    <div class="full--name">
+                                        <input id="text" type="text" name="name" placeholder="Full Name" required/>
+                                    </div>
+                                    <div class="email">
+                                        <input id="email-text" type="email" name="email" placeholder="Email" required/>
+                                    </div>
+                                </div>
+                                <div class="comment">
+                                    <textarea class="comments" name="comments,&nbsp;questions" rows="5" cols="33" placeholder="Comments" required></textarea>
+                                </div>
+                                <button type="submit" class="btn--form">Get in Touch</button>
+                            </form>
                         </div>
-                        <form class="cta-form" action="https://formsubmit.co/d6151651c2f86b6316ae70a06e7c95a0" method="POST">
-                            <!-- Honeypot -->
-                            <input type="text" name="_honey" style="display: none;" />
-
-                            <!-- Disable Captcha -->
-                            <input type="hidden" name="_captcha" value="false" />
-
-                            <div class="form-content">
-                                <div class="full--name">
-                                    <input id="text" type="text" name="name" placeholder="Full Name" required/>
-                                </div>
-                                <div class="email">
-                                    <input id="email-text" type="email" name="email" placeholder="Email" required/>
-                                </div>
-                            </div>
-                            <div class="comment">
-                                <textarea class="comments" name="comments,&nbsp;questions" rows="5" cols="33" placeholder="Comments" required></textarea>
-                            </div>
-                            <button type="submit" class="btn--form">Get in Touch</button>
-                        </form>
                     </div>
+                   
                     <div class="footer">
                         <div class="inner-footer">
                             <nav class="footer-nav">
