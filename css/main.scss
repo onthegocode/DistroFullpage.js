@@ -364,7 +364,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 57.5em) {
   .inner-header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -393,7 +393,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 48.75em) {
   .container {
     max-width: 1200px;
     margin: 0 20px;
@@ -415,7 +415,7 @@ span {
 }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 42.5em) {
   .container {
     max-width: 1200px;
     margin: 0 20px;
@@ -443,7 +443,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .container {
     max-width: 1200px;
     margin: 0 9px;
@@ -484,7 +484,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 30em) {
     .logo {
         height: 40px;
         width: auto;
@@ -554,7 +554,7 @@ span {
       }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 22.5em) {
     .inner-footer {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -579,7 +579,7 @@ span {
       }
 }
 
-@media only screen and (max-width: 280px){
+@media only screen and (max-width: 17.5em){
     h1 {
         font-size: 2.8rem;
     }
